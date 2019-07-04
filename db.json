@@ -1,0 +1,366 @@
+{
+  "tables": [
+    {
+      "number": 1,
+      "status": 0
+    },
+    {
+      "number": 2,
+      "status": 0
+    },
+    {
+      "number": 3,
+      "status": 1
+    },
+    {
+      "number": 4,
+      "status": 0
+    },
+    {
+      "number": 5,
+      "status": 1
+    },
+    {
+      "number": 6,
+      "status": 0
+    },
+    {
+      "number": 7,
+      "status": 1
+    },
+    {
+      "number": 8,
+      "status": 0
+    },
+    {
+      "number": 9,
+      "status": 0
+    },
+    {
+      "number": 10,
+      "status": 1
+    },
+    {
+      "number": 11,
+      "status": 0
+    },
+    {
+      "number": 12,
+      "status": 1
+    },
+    {
+      "number": 13,
+      "status": 0
+    },
+    {
+      "number": 14,
+      "status": 0
+    },
+    {
+      "number": 15,
+      "status": 1
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "name": "Bebidas",
+      "urlImage": "https://i.imgur.com/DAl0KB8.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Lanches",
+      "urlImage": "https://i.imgur.com/0gqnEaY.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Sobremesas",
+      "urlImage": "https://i.imgur.com/NIwNTMR.jpg"
+    }
+  ],
+  "subgroups": [
+    {
+      "id": 1,
+      "name": "Sucos",
+      "urlImage": "https://i.imgur.com/9gbQ7YR.jpg",
+      "group": {
+        "id": 1,
+        "name": "Bebidas",
+        "urlImage": "https://i.imgur.com/7GUv9qa.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Refrigerante",
+      "urlImage": "https://i.imgur.com/zD3gT4Z.jpg",
+      "group": {
+        "id": 1,
+        "name": "Bebidas",
+        "urlImage": "https://i.imgur.com/7GUv9qa.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Cervejas",
+      "urlImage": "https://i.imgur.com/jbemFzr.jpg",
+      "group": {
+        "id": 1,
+        "name": "Bebidas",
+        "urlImage": "https://i.imgur.com/7GUv9qa.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Drincks",
+      "urlImage": "https://i.imgur.com/FI49ftb.jpg",
+      "group": {
+        "id": 1,
+        "name": "Bebidas",
+        "urlImage": "https://i.imgur.com/7GUv9qa.jpg"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Salgados",
+      "urlImage": "https://i.imgur.com/0E2tgV7.jpg",
+      "group": {
+        "id": 2,
+        "name": "Lanches",
+        "urlImage": "https://i.imgur.com/NIwNTMR.jpg"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Sanduiches",
+      "urlImage": "https://i.imgur.com/ExwR7ap.jpg",
+      "group": {
+        "id": 2,
+        "name": "Lanches",
+        "urlImage": "https://i.imgur.com/NIwNTMR.jpg"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Tortas",
+      "urlImage": "https://i.imgur.com/zkaAooq.jpg",
+      "group": {
+        "id": 2,
+        "name": "Lanches",
+        "urlImage": "https://i.imgur.com/NIwNTMR.jpg"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Bolos",
+      "urlImage": "https://i.imgur.com/P5ZRSvT.jpg",
+      "group": {
+        "id": 2,
+        "name": "Lanches",
+        "urlImage": "https://i.imgur.com/NIwNTMR.jpg"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Docinhos",
+      "urlImage": "https://i.imgur.com/ExwR7ap.jpg",
+      "group": {
+        "id": 3,
+        "name": "Sobremesas",
+        "urlImage": "https://i.imgur.com/jbemFzr.jpg"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Torta gelada",
+      "urlImage": "https://i.imgur.com/7GUv9qa.jpg",
+      "group": {
+        "id": 3,
+        "name": "Sobremesas",
+        "urlImage": "https://i.imgur.com/jbemFzr.jpg"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Sobremesa",
+      "urlImage": "https://i.imgur.com/xZLIYFV.jpg",
+      "group": {
+        "id": 3,
+        "name": "Sobremesas",
+        "urlImage": "https://i.imgur.com/jbemFzr.jpg"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Sorvetes",
+      "urlImage": "https://i.imgur.com/aFhEEby.jpg",
+      "group": {
+        "id": 3,
+        "name": "Sobremesas",
+        "urlImage": "https://i.imgur.com/jbemFzr.jpg"
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "CERVEJA",
+      "price": 10.5,
+      "urlImage": "https://i.imgur.com/DvpvklR.jpg",
+      "subGroup": {
+        "id": 3,
+        "name": "Cervejas",
+        "urlImage": "https://i.imgur.com/P5JLfjk.jpg",
+        "group": {
+          "id": 1,
+          "name": "Bebidas",
+          "urlImage": "https://i.imgur.com/OKvWoTh.jpg"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "REFRIGERANTE",
+      "price": 2.5,
+      "urlImage": "https://i.imgur.com/P5ZRSvT.jpg",
+      "subGroup": {
+        "id": 2,
+        "name": "Refrigerante",
+        "urlImage": "https://i.imgur.com/9t6hLbm.jpg",
+        "group": {
+          "id": 1,
+          "name": "Bebidas",
+          "urlImage": "https://i.imgur.com/OKvWoTh.jpg"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "SUCOS",
+      "price": 15.5,
+      "urlImage": "https://i.imgur.com/F8n3Ic6.jpg",
+      "subGroup": {
+        "id": 1,
+        "name": "Sucos",
+        "urlImage": "https://i.imgur.com/9gbQ7YR.jpg",
+        "group": {
+          "id": 1,
+          "name": "Bebidas",
+          "urlImage": "https://i.imgur.com/OKvWoTh.jpg"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "COXINHA",
+      "price": 9.5,
+      "urlImage": "",
+      "subGroup": {
+        "id": 5,
+        "name": "Salgados",
+        "urlImage": "https://i.imgur.com/P5JLfjk.jpg",
+        "group": {
+          "id": 2,
+          "name": "Lanches",
+          "urlImage": "https://i.imgur.com/zkaAooq.jpg"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "HAMBUGUER",
+      "price": 8.5,
+      "urlImage": "https://i.imgur.com/0E2tgV7.jpg",
+      "subGroup": {
+        "id": 6,
+        "name": "Sanduiches",
+        "urlImage": "https://i.imgur.com/glyvuXg.jpg",
+        "group": {
+          "id": 2,
+          "name": "Lanches",
+          "urlImage": "https://i.imgur.com/zkaAooq.jpg"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "TORTA",
+      "price": 7.5,
+      "urlImage": "",
+      "subGroup": {
+        "id": 7,
+        "name": "Tortas",
+        "urlImage": "https://i.imgur.com/aFhEEby.jpg",
+        "group": {
+          "id": 2,
+          "name": "Lanches",
+          "urlImage": "https://i.imgur.com/zkaAooq.jpg"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "CACHORRO QUENTE",
+      "price": 3.5,
+      "urlImage": "",
+      "subGroup": {
+        "id": 6,
+        "name": "Sanduiches",
+        "urlImage": "https://i.imgur.com/glyvuXg.jpg",
+        "group": {
+          "id": 2,
+          "name": "Lanches",
+          "urlImage": "https://i.imgur.com/zkaAooq.jpg"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "BRIGADEIRO",
+      "price": 1.5,
+      "urlImage": "https://i.imgur.com/HvTyeh3.jpg",
+      "subGroup": {
+        "id": 9,
+        "name": "Docinhos",
+        "urlImage": "https://i.imgur.com/dFH34N5.jpg",
+        "group": {
+          "id": 3,
+          "name": "Sobremesas",
+          "urlImage": "https://i.imgur.com/xZLIYFV.jpg"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "MUSSE",
+      "price": 5.5,
+      "urlImage": "",
+      "subGroup": {
+        "id": 11,
+        "name": "Sobremesa",
+        "urlImage": "https://i.imgur.com/8B7haIK.jpg",
+        "group": {
+          "id": 3,
+          "name": "Sobremesas",
+          "urlImage": "https://i.imgur.com/xZLIYFV.jpg"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "PAVER",
+      "price": 13.5,
+      "urlImage": "https://i.imgur.com/zkaAooq.jpg",
+      "subGroup": {
+        "id": 11,
+        "name": "Sobremesa",
+        "urlImage": "https://i.imgur.com/8B7haIK.jpg",
+        "group": {
+          "id": 3,
+          "name": "Sobremesas",
+          "urlImage": "https://i.imgur.com/xZLIYFV.jpg"
+        }
+      }
+    }
+  ],
+  "sales": []
+}
